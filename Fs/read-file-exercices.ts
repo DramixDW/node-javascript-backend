@@ -9,4 +9,4 @@ import { readFile } from "fs/promises";
 readFile(process.argv[2], 'utf8').then(file => {
    const fileWithoutSpace = file.replaceAll(/\s/g, "");
    console.log(`Il y ${fileWithoutSpace.length} charactères dans le fichier`);
-})
+});
