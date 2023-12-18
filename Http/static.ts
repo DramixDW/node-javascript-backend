@@ -10,6 +10,7 @@ const server = http.createServer(async (request, response) => {
     const extensionToContentType: Record<string, string> = {
         html: 'text/html',
         png: 'image/png',
+        jpg: 'image/jpg',
         css: 'text/css',
     };
 
